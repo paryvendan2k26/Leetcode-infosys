@@ -6,7 +6,7 @@ public:
     }
     int eraseOverlapIntervals(vector<vector<int>>& arr) {
         int n=arr.size();
-        sort(arr.begin(),arr.end(), comp);
+        sort(arr.begin(),arr.end(),comp);
 
         int cnt=1;
         int lastendtime=arr[0][1];
